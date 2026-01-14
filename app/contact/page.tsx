@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 export default function ContactPage() {
-  const contactEmail = "support@yourdomain.com"; // TODO: 换成你的真实邮箱
+  const contactEmail = "steven@beautypricetracker.com"; // TODO: 换成你的真实邮箱
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-900">
