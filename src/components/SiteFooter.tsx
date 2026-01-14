@@ -11,13 +11,13 @@ export default function SiteFooter() {
             <Link href="/" className="flex items-center gap-2">
               <div className="h-9 w-9 rounded-xl bg-zinc-900" />
               <div className="leading-tight">
-                <div className="text-sm font-semibold">Price Compare</div>
-                <div className="text-xs text-zinc-500">Skincare Deals</div>
+                <div className="text-sm font-semibold">Beauty Price Tracker</div>
+                <div className="text-xs text-zinc-500">Beauty Price Tracking</div>
               </div>
             </Link>
 
             <p className="mt-4 max-w-sm text-sm text-zinc-600">
-              Compare skincare prices across trusted retailers. Open a product,
+              Compare Beauty prices across trusted retailers. Open a product,
               review offers, then click through to purchase.
             </p>
 
@@ -77,7 +77,7 @@ export default function SiteFooter() {
         </div>
 
         <div className="mt-10 flex flex-col gap-3 border-t border-zinc-200 pt-6 text-xs text-zinc-500 md:flex-row md:items-center md:justify-between">
-          <div>© {new Date().getFullYear()} Price Compare. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Beauty Price Tracker. All rights reserved.</div>
           <div className="flex flex-wrap gap-x-4 gap-y-2">
             <Link className="hover:text-zinc-900 hover:underline" href="/affiliate-disclosure">
               Disclosure

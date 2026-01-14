@@ -9,8 +9,8 @@ export default function AboutPage() {
           <Link href="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-xl bg-zinc-900" />
             <div className="leading-tight">
-              <div className="text-sm font-semibold">Price Compare</div>
-              <div className="text-xs text-zinc-500">Skincare Deals</div>
+              <div className="text-sm font-semibold">Beauty Price Tracker</div>
+              <div className="text-xs text-zinc-500">Beauty Price Tracking</div>
             </div>
           </Link>
           <nav className="flex items-center gap-4 text-sm">
@@ -34,8 +34,8 @@ export default function AboutPage() {
         <section className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
           <h1 className="text-3xl font-semibold tracking-tight">About</h1>
           <p className="mt-4 text-zinc-600">
-            Price Compare is a lightweight product comparison site focused on
-            skincare. We help shoppers quickly compare prices across trusted
+            Beauty Price Tracker is a lightweight product comparison site focused on
+            Beauty. We help shoppers quickly compare prices across trusted
             retailers and click through to purchase with transparency.
           </p>
 

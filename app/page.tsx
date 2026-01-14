@@ -29,8 +29,8 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-xl bg-zinc-900" />
             <div className="leading-tight">
-              <div className="text-sm font-semibold">Price Compare</div>
-              <div className="text-xs text-zinc-500">Skincare Deals</div>
+              <div className="text-sm font-semibold">Beauty Price Tracker</div>
+              <div className="text-xs text-zinc-500">Beauty Deals</div>
             </div>
           </Link>
 
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
 
               <h1 className="mt-4 text-4xl font-semibold tracking-tight">
-                Compare skincare prices across trusted retailers
+                Compare Beauty prices across trusted retailers
               </h1>
               <p className="mt-4 max-w-xl text-zinc-600">
                 Search a product, compare offers, and click through to buy.
@@ -123,7 +123,7 @@ export default function Home() {
                 {[
                   { k: "Products", v: "30+" },
                   { k: "Retailers", v: "10+" },
-                  { k: "Focus", v: "Skincare" },
+                  { k: "Focus", v: "Beauty" },
                 ].map((x) => (
                   <div
                     key={x.k}

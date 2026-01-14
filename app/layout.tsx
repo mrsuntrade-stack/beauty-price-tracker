@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Price Compare — Skincare Deals",
+  title: "Beauty Price Tracker",
   description:
-    "Compare skincare prices across trusted retailers. View offers, timestamps, and click through to buy.",
+    "Compare beauty prices across trusted retailers. View offers, timestamps, and click through to buy.",
 };
 
 export default function RootLayout({

@@ -11,8 +11,8 @@ export default function ContactPage() {
           <Link href="/" className="flex items-center gap-2">
             <div className="h-8 w-8 rounded-xl bg-zinc-900" />
             <div className="leading-tight">
-              <div className="text-sm font-semibold">Price Compare</div>
-              <div className="text-xs text-zinc-500">Skincare Deals</div>
+              <div className="text-sm font-semibold">Beauty Price Tracker</div>
+              <div className="text-xs text-zinc-500">Beauty Price Tracking</div>
             </div>
           </Link>
 
